@@ -27,3 +27,5 @@ create outline for for the final dashboard. a storyboard capturing the main cisu
 <!-- New branch for Jimmy Lim -->
 
 <!-- New branch for Sam Ramos -->
+
+<!-- New branch for Cinthia Kim -->
