@@ -1,7 +1,7 @@
 # Final_Module20_Group3
 ## FIRST SEGMENT Presentation Draft
-Selected Topic
-Reason we chose this topic
+- Selected Topic
+- Reason we chose this topic
 Description of our source of data
 Questions we hope to answer with our data
 
