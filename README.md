@@ -8,8 +8,12 @@
 ### Data Set
 We have initial data set that has 15171 rows and 47 columns.
 ### EDA and Cleaning Data Set
-1. **FINDING**: Single Family(94%), Condo(3%) and Townhouse(1%) making up most of data. **ACTION** removed all other home type
-3. We found some outliers on in lastestPrice, lotSizeSqFt, livingAreaSqFt and numOfBathrooms - 
+1. **FINDING**: Single Family(94%), Condo(3%) and Townhouse(1%) making up most of data. **ACTION**: Removed all other home type
+2. **FINDING**: Possible outliers on in lastestPrice, lotSizeSqFt, livingAreaSqFt and numOfBathrooms.  **ACTION**: Correct typo, Inputting typical numbers, correcting data based on homeType and latestPrice, drop irrelevant cities and used IQR method (used standard 1.5).
+3. **FINDING**: bool type data. **ACTION**: Changed to binary data as 0/1
+### Result
+Our final data set has 12823 rows and 50 columns and 0 missing value. 
+
 
 Description of communication protocols
 Each team member has at least four commits(for first segment)
