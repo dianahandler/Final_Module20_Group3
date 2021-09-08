@@ -2,7 +2,7 @@
 ## FIRST SEGMENT Presentation Draft
 - Selected Topic - Austin TX Housing Price Prediction\
 - Reason we chose this topic - The Austin Housing market is one of the hottest markets in 2021, the data shows how the market changed over past couple of years. After analyizing the data we expect to predict future price for Austin housing market\
-- Description of our source of data - The data set originaly from project at Northwestern University, and we are able to get csv file from [kaggle](https://www.kaggle.com/ericpierce/austinhousingprices)\
+- Description of our source of data - The data set originaly from project at Northwestern University, and we are able to get csv file from [kaggle](https://www.kaggle.com/ericpierce/austinhousingprices)\.
 - Questions we hope to answer with our data - We expect to see what happened in Austin market price, what variable mostly affect housing price and to see how Austin market price will change in the future.
 
 ### Data Set
