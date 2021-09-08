@@ -8,7 +8,7 @@
 ### Data Set
 We have initial data set that has 15171 rows and 47 columns.
 ### EDA and Cleaning Data Set
-1. **Findng**: Single Family(94%), Condo(3%) and Townhouse(1%) making up most of data. **Action** removed all other home type
+1. **FINDING**: Single Family(94%), Condo(3%) and Townhouse(1%) making up most of data. **ACTION** removed all other home type
 3. We found some outliers on in lastestPrice, lotSizeSqFt, livingAreaSqFt and numOfBathrooms - 
 
 Description of communication protocols
