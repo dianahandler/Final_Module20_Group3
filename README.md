@@ -1,18 +1,18 @@
 # Final_Module20_Group3
 ## FIRST SEGMENT Presentation Draft
-- Selected Topic - Austin TX Housing Price Prediction\
-- Reason we chose this topic - The Austin Housing market is one of the hottest markets in 2021, the data shows how the market changed over past couple of years. After analyizing the data we expect to predict future price for Austin housing market\
+- Selected Topic - Austin TX Housing Price Prediction\.
+- Reason we chose this topic - The Austin Housing market is one of the hottest markets in 2021, the data shows how the market changed over past couple of years. After analyizing the data we expect to predict future price for Austin housing market\.
 - Description of our source of data - The data set originaly from project at Northwestern University, and we are able to get csv file from [kaggle](https://www.kaggle.com/ericpierce/austinhousingprices)\.
-- Questions we hope to answer with our data - We expect to see what happened in Austin market price, what variable mostly affect housing price and to see how Austin market price will change in the future.
+- Questions we hope to answer with our data - We expect to see what happened in Austin market price, what variable mostly affect housing price and to see how Austin market price will change in the future\.
 
 ### Data Set
-We have initial data set that has 15171 rows and 47 columns.
+We have initial data set that has 15171 rows and 47 columns\.
 ### EDA and Cleaning Data Set
-1. **FINDING**: Single Family(94%), Condo(3%) and Townhouse(1%) making up most of data. **ACTION**: Removed all other home type
-2. **FINDING**: Possible outliers on in lastestPrice, lotSizeSqFt, livingAreaSqFt and numOfBathrooms.  **ACTION**: Correct typo, Inputting typical numbers, correcting data based on homeType and latestPrice, drop irrelevant cities and used IQR method (used standard 1.5).
-3. **FINDING**: bool type data. **ACTION**: Changed to binary data as 0/1
+1. **FINDING**: Single Family(94%), Condo(3%) and Townhouse(1%) making up most of data. **ACTION**: Removed all other home type\.
+2. **FINDING**: Possible outliers on in lastestPrice, lotSizeSqFt, livingAreaSqFt and numOfBathrooms.  **ACTION**: Correct typo, Inputting typical numbers, correcting data based on homeType and latestPrice, drop irrelevant cities and used IQR method (used standard 1.5)\.
+3. **FINDING**: bool type data. **ACTION**: Changed to binary data as 0/1\.
 ### Result
-Our final data set has 12823 rows and 50 columns and 0 missing value. 
+Our final data set has 12823 rows and 50 columns and 0 missing value\.
 
 
 Description of communication protocols
