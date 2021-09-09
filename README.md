@@ -13,14 +13,12 @@ We have initial data set that has 15171 rows and 47 columns\.
 2. **FINDING**: Possible outliers on lastestPrice, lotSizeSqFt, livingAreaSqFt and numOfBathrooms.  **ACTION**: Corrected typo, Inputted typical numbers, Corrected data based on homeType and latestPrice, Dropped irrelevant cities and Used IQR method (used standard 1.5)\.
 3. **FINDING**: Bool type data. **ACTION**: Changed to binary data as 0/1\.
 ### Result
-Our final data set has 12823 rows and 50 columns with 0 missing value\.
+Our final data set has 12933 rows and 50 columns with 0 missing value\.
 
-- Selected Topic
-- Reason we chose this topic
-- Description of our source of data
-- Questions we hope to answer with our data
+### Description of communication protocols
+Slack chat and normal class hours are our primary communication chanel. On top of these, we will have seperate meeting time via google meet during week and weekend\.
 
-- Description of communication protocols
+
 - Each team member has at least four commits(for first segment)
 
 
