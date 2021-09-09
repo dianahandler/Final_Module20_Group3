@@ -16,7 +16,8 @@ We have initial data set that has 15171 rows and 47 columns\.
 Our final data set has 12933 rows and 50 columns with 0 missing value\.
 
 ### Description of communication protocols
-Slack chat and normal class hours are our primary communication chanel. On top of these, we will have seperate meeting time via google meet during week and weekend\.
+Slack chat and normal class hours are our primary communication channel. On top of these, we will have seperate meeting time via google meet during week and weekend\.
+Lastly, each team member's email would be back up communicate channel\.
 
 
 - Each team member has at least four commits(for first segment)
