@@ -36,7 +36,8 @@ Team members present a provisional database that stands in for the final databas
 create outline for for the final dashboard. a storyboard capturing the main cisualizations and other aspects of the dashboard
 - refer to google doc shared with group
 
-See our dashboard and presentation at the link: https://docs.google.com/presentation/d/1twBBLEhZZkmWahrWEjHUeVqPb6Sn0j-FQJ_6LjUNoQ8/edit?usp=sharing.
+See our dashboard and presentation [here]
+(https://docs.google.com/presentation/d/1twBBLEhZZkmWahrWEjHUeVqPb6Sn0j-FQJ_6LjUNoQ8/edit?usp=sharing)\.
 
 <!-- New branch for James Moon -->
 
