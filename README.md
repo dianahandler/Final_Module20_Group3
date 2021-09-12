@@ -28,9 +28,27 @@ Slack chat and normal class hours are our primary communication channel. On top 
 As an alternative, we have each team member's email for supplemental communication medium\.
 
 ## Database
-Team members present a provisional database that stands in for the final database and accomplishes:
-- sample data that mimics expected final database structure or schema
-- draft machine learning module is connected to provisional database
+The two datasets that were created during EDA and Cleaning Data set were split based on columns/features that were physical related to the house itself, vs external factors. 
+Based off this, the first table of the dataset being worked included the following columns: zpid, city, streetAddress, zipcode, description, latitude, longitude, propertyTaxRate, garageSpaces, hasAssociation, hasCooling, hasGarage, hasHeating, hasSpa, hasView, homeType, parkingSpaces, yearBuilt, latestPrice, numPriceChanges, latest_saledate, latest_salemonth, latest_saleyear, latestPriceSource, numOfPhotos, accessibility, numOfAppliances, numOfParkingFeatures, patioporch, security, waterfront, windowfeatures, community, lotSizesqFt, livingAreaSqFt, numOfBathrooms, numOfBedrooms, numOfStories, homeImage, zip_rank, median_zip, pr_sqft. 
+The second table had the following columns zpid, numOfPrimarySchools, numOfElementarySchools, numOfMiddleSchools, numOfHighSchools, avgSchoolDistance, avgSchoolRating, avgSchoolSize, MedianStudentsPerTeacher. Zpid was used as the primary key for both table 1 (named House_data) and table2 (named House_data2). 
+Shown below are the queries used to create both tables, with House_data2 having the foreign key zpid connected to House_data. 
+![House Data Table query](https://github.com/dianahandler/Final_Module20_Group3/blob/ec20086b18caf302f1b12e9af6f93a2d0261d105/Resources/House%20Data%20table%20query.png)
+
+
+![House Data 2 Table query](https://github.com/dianahandler/Final_Module20_Group3/blob/ec20086b18caf302f1b12e9af6f93a2d0261d105/Resources/House%20Data%202%20table%20query.png)
+
+Below are images of the resulting tables created with the CSV file being imported.
+![House_Data SQL Import](https://github.com/dianahandler/Final_Module20_Group3/blob/ec20086b18caf302f1b12e9af6f93a2d0261d105/Resources/House_Data%20SQL%20Import.png)
+
+![House_Data2 SQL Import](https://github.com/dianahandler/Final_Module20_Group3/blob/ec20086b18caf302f1b12e9af6f93a2d0261d105/Resources/House_Data2%20SQL%20Import.png)
+
+
+Zpid was a unique identifier that carried over between the two datasets, and is what was used for the join as well. Below is an image of
+the query created to join the two tables on zpid.
+
+![House Data Complete join query](https://github.com/dianahandler/Final_Module20_Group3/blob/ec20086b18caf302f1b12e9af6f93a2d0261d105/Resources/House%20Data%20Complete%20join%20query.png)
+
+This resulted in a table called House_Data_Complete, which was then exported into a csv file as well.
 
 ## Machine Learning Model
 Present a provisional machine learning model that stands in for the final machine learning model and accomplishes:
