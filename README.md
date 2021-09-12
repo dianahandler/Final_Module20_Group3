@@ -40,11 +40,9 @@ Present a provisional machine learning model that stands in for the final machin
 ## Google Slides Presentation & Storyboard 
 The team has jointly utilized python, Tableau, and Json to build a Google Slides Presentation, Tableau Storyboard and an interactive Dashboard\.
 
-See our Google Slides Presentation [docs.google.com/presentation]
-(https://docs.google.com/presentation/d/1twBBLEhZZkmWahrWEjHUeVqPb6Sn0j-FQJ_6LjUNoQ8/edit?usp=sharing)\.
+See our Google Slides Presentation [docs.google.com/presentation](https://docs.google.com/presentation/d/1twBBLEhZZkmWahrWEjHUeVqPb6Sn0j-FQJ_6LjUNoQ8/edit?usp=sharing)\.
 
-See our Storyboard [here]
-(https://public.tableau.com/app/profile/cinthia.kim7065/viz/Final_Module20_Group3_Austin_Housing/Storyboard_1)\.
+See our Storyboard [here](https://public.tableau.com/app/profile/cinthia.kim7065/viz/Final_Module20_Group3_Austin_Housing/Storyboard_1)\.
 
 See our interactive Dashboard [here]
 
