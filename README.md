@@ -59,7 +59,7 @@ Present a provisional machine learning model that stands in for the final machin
 - Outputs label(s) for input data
 
 ## Google Slides Presentation & Storyboard 
-The team has jointly utilized python, Tableau, and Json to build a Google Slides Presentation, Tableau Storyboard and an interactive Dashboard\.
+The team has jointly utilized python, Tableau, and JSON to build a Google Slides Presentation, Tableau Storyboard and an interactive Dashboard\.
 
 See our Google Slides Presentation [docs.google.com/presentation](https://docs.google.com/presentation/d/1twBBLEhZZkmWahrWEjHUeVqPb6Sn0j-FQJ_6LjUNoQ8/edit?usp=sharing)\.
 
