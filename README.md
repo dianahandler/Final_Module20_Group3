@@ -16,8 +16,10 @@ We hope to discover which features and variables correlate closely to the house 
 The initial data set from kaggle span from years 2018 to January 2021 and has 15,171 rows and 47 columns of the sales data from Austin, TX\.
 
 ### EDA and Cleaning Data Set
+JamesMoon_branch
 1. **FINDING**: Single Family(94%), Condo(3%) and Townhouse(1%) make up most of data. **ACTION**: Removed all other home type\.
 2. **FINDING**: Possible outliers were lastestPrice, lotSizeSqFt, livingAreaSqFt and numOfBathrooms.  **ACTION**: Corrected typo(s), inputted typical numbers, corrected data based on homeType and latestPrice and used IQR method (used standard 1.5)\.
+ main
 3. **FINDING**: Bool type data. **ACTION**: Changed to binary data as 0/1\.
 
 ### Result
