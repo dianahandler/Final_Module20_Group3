@@ -1,5 +1,7 @@
 ## Interactive Dashboard
 
+dashboard: https://dianahandler.github.io/final_dash/
+
 The purpose of this dashboard is to allow the user to both view and interact with 500 house listings on a map of Austin, Texas. All listings will be marked with popup markers that allos the user to click on them and view various features for each listing(# of bedrooms, square footage, price, etc.). 
 
 To create an interactive dashboard, the following tools were utilized:
