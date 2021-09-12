@@ -28,10 +28,13 @@ Slack chat and normal class hours are our primary communication channel. On top 
 As an alternative, we have each team member's email for supplemental communication medium\.
 
 ## Database
-The two datasets that were created during EDA and Cleaning Data set were split based on columns/features that were physical related to the house itself, vs external factors. 
+The two datasets that were created during EDA and Cleaning Data set were split based on columns/features that were physical related to the house itself, vs external factors.
+
 Based off this, the first table of the dataset being worked included the following columns: zpid, city, streetAddress, zipcode, description, latitude, longitude, propertyTaxRate, garageSpaces, hasAssociation, hasCooling, hasGarage, hasHeating, hasSpa, hasView, homeType, parkingSpaces, yearBuilt, latestPrice, numPriceChanges, latest_saledate, latest_salemonth, latest_saleyear, latestPriceSource, numOfPhotos, accessibility, numOfAppliances, numOfParkingFeatures, patioporch, security, waterfront, windowfeatures, community, lotSizesqFt, livingAreaSqFt, numOfBathrooms, numOfBedrooms, numOfStories, homeImage, zip_rank, median_zip, pr_sqft. 
+
 The second table had the following columns zpid, numOfPrimarySchools, numOfElementarySchools, numOfMiddleSchools, numOfHighSchools, avgSchoolDistance, avgSchoolRating, avgSchoolSize, MedianStudentsPerTeacher. Zpid was used as the primary key for both table 1 (named House_data) and table2 (named House_data2). 
 Shown below are the queries used to create both tables, with House_data2 having the foreign key zpid connected to House_data. 
+
 ![House Data Table query](https://github.com/dianahandler/Final_Module20_Group3/blob/ec20086b18caf302f1b12e9af6f93a2d0261d105/Resources/House%20Data%20table%20query.png)
 
 
