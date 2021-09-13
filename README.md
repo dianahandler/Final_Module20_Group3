@@ -59,7 +59,10 @@ the query created to join the two tables on zpid.
 
 ![House Data Complete join query](https://github.com/dianahandler/Final_Module20_Group3/blob/ec20086b18caf302f1b12e9af6f93a2d0261d105/Resources/House%20Data%20Complete%20join%20query.png)
 
-This resulted in a table called House_Data_Complete, which was then exported into a csv file as well.
+This resulted in a table called House_Data_Complete, which was then exported into a csv file as well. Afterwards, a connection string was
+created using Jupyter Notebook. The file for that was uploaded into the resources folder, and an image of that code is shown below as wel.
+
+![Jupyter Notebook Connection String](https://github.com/dianahandler/Final_Module20_Group3/blob/9eab711bd40e45dd7e57cef1d23ff3acc42f5076/Resources/Jupyter%20Notebook%20Connection%20String.png)
 
 ## Machine Learning Model
 Present a provisional machine learning model that stands in for the final machine learning model and accomplishes:
