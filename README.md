@@ -63,13 +63,8 @@ created using Jupyter Notebook. The file for that was uploaded into the resource
 
 ![Jupyter Notebook Connection String](https://github.com/dianahandler/Final_Module20_Group3/blob/9eab711bd40e45dd7e57cef1d23ff3acc42f5076/Resources/Jupyter%20Notebook%20Connection%20String.png)
 
-## Machine Learning Model
-Present a provisional machine learning model that stands in for the final machine learning model and accomplishes:
-- takes in data from provisional database
-- Outputs label(s) for input data
-
 ## Google Slides Presentation & Storyboard 
-The team has jointly utilized python, Tableau, and JSON to build a Google Slides Presentation, Tableau Storyboard and an interactive Dashboard\.
+The team has jointly utilized python, Tableau, and Javascript to build a Google Slides Presentation, Tableau Storyboard and an interactive Dashboard\.
 
 See our Google Slides Presentation [docs.google.com/presentation](https://docs.google.com/presentation/d/1twBBLEhZZkmWahrWEjHUeVqPb6Sn0j-FQJ_6LjUNoQ8/edit?usp=sharing)\.
 
@@ -77,10 +72,6 @@ See our Storyboard [here](https://public.tableau.com/app/profile/cinthia.kim7065
 
 See our interactive Dashboard [here]
 
-main
-
-
-DianaHandler_branch
 ## Interactive Dashboard
 
 dashboard: https://dianahandler.github.io/final_dash/
