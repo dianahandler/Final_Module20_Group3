@@ -71,7 +71,7 @@ See some of our graphics created using Tableau [here](https://public.tableau.com
 
 ## Interactive Dashboard
 
-See our interactive dashboard [here]:(https://dianahandler.github.io/final_dash/)\
+See our interactive dashboard [here]:(https://dianahandler.github.io/final_dash/)
 
 The purpose of this dashboard is to allow the user to both view and interact with 500 house listings on a map of Austin, Texas. All listings will be marked with popup markers that allos the user to click on them and view various features for each listing(# of bedrooms, square footage, price, etc.). 
 
