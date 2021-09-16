@@ -52,7 +52,6 @@ Below are images of the resulting tables created with the CSV file being importe
 
 ![House_Data2 SQL Import](https://github.com/dianahandler/Final_Module20_Group3/blob/ec20086b18caf302f1b12e9af6f93a2d0261d105/Resources/House_Data2%20SQL%20Import.png)
 
-
 Zpid was a unique identifier that carried over between the two datasets, and is what was used for the join as well. Below is an image of
 the query created to join the two tables on zpid.
 
@@ -63,18 +62,16 @@ created using Jupyter Notebook. The file for that was uploaded into the resource
 
 ![Jupyter Notebook Connection String](https://github.com/dianahandler/Final_Module20_Group3/blob/9eab711bd40e45dd7e57cef1d23ff3acc42f5076/Resources/Jupyter%20Notebook%20Connection%20String.png)
 
-## Google Slides Presentation & Storyboard 
-The team has jointly utilized python, Tableau, and Javascript to build a Google Slides Presentation, Tableau Storyboard and an interactive Dashboard\.
+## Google Slides Presentation & Graphics
+The team has jointly utilized python, Tableau, and Javascript to build a Google Slides Presentation, graphics, and an interactive Dashboard\.
 
 See our Google Slides Presentation [docs.google.com/presentation](https://docs.google.com/presentation/d/1twBBLEhZZkmWahrWEjHUeVqPb6Sn0j-FQJ_6LjUNoQ8/edit?usp=sharing)\.
 
-See our Storyboard [here](https://public.tableau.com/app/profile/cinthia.kim7065/viz/Final_Module20_Group3_Austin_Housing/Storyboard_1)\.
-
-See our interactive Dashboard [here]
+See some of our graphics created using Tableau [here](https://public.tableau.com/app/profile/cinthia.kim7065/viz/Final_Module20_Group3_Austin_Housing/Storyboard_1)\.
 
 ## Interactive Dashboard
 
-dashboard: https://dianahandler.github.io/final_dash/
+See our interactive dashboard [here]:(https://dianahandler.github.io/final_dash/)\
 
 The purpose of this dashboard is to allow the user to both view and interact with 500 house listings on a map of Austin, Texas. All listings will be marked with popup markers that allos the user to click on them and view various features for each listing(# of bedrooms, square footage, price, etc.). 
 
