@@ -82,6 +82,7 @@ To create an interactive dashboard, the following tools were utilized:
 - MapBox API
 - Javascript
 - D3 Library
+- Leaflet Library
 
 The original dataset initially had over 10k listings and froze the map due to the data size. To compensate, I opened the dataset on an excel file and assigned a random number to each listing with the RAND() function and proceeded to sort the rows in ascending order, randomizing the entire dataset. I then selected the top 500 listings to display on the interactive dashboard as over 10k would be unrealistic for a geographical user interface. The excel file was saved as a csv and then converted to a geoJSON file using an online converter https://www.convertcsv.com/csv-to-geojson.htm. Because the dataset already had longititude and latitude columns for each listing, the file was able to convert to a geoJSON successfully. 
 
