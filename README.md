@@ -57,6 +57,8 @@ the query created to join the two tables on zpid.
 
 ![House Data Complete join query](https://github.com/dianahandler/Final_Module20_Group3/blob/ec20086b18caf302f1b12e9af6f93a2d0261d105/Resources/House%20Data%20Complete%20join%20query.png)
 
+### Result
+
 This resulted in a table called House_Data_Complete, which was then exported into a csv file as well. Afterwards, a connection string was
 created using Jupyter Notebook. The file for that was uploaded into the resources folder, and an image of that code is shown below as well. With the connection string
 working properly, a query was done to show the complete table in Jupyter Notebook.
@@ -64,7 +66,7 @@ working properly, a query was done to show the complete table in Jupyter Noteboo
 ![Jupyter Notebook Connection String](https://github.com/dianahandler/Final_Module20_Group3/blob/9eab711bd40e45dd7e57cef1d23ff3acc42f5076/Resources/Jupyter%20Notebook%20Connection%20String.png)
 
 ## Google Slides Presentation & Graphics
-The team has jointly utilized python, Tableau, and Javascript to build a Google Slides Presentation, graphics, and an interactive Dashboard\.
+The team has jointly utilized python, Tableau, Jupyter Notebook, PostgreSQL, and Javascript to build a Google Slides Presentation, graphics, and an interactive Dashboard\.
 
 See our Google Slides Presentation [docs.google.com/presentation](https://docs.google.com/presentation/d/1twBBLEhZZkmWahrWEjHUeVqPb6Sn0j-FQJ_6LjUNoQ8/edit?usp=sharing)\.
 
