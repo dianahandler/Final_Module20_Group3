@@ -47,7 +47,7 @@ Shown below are the queries used to create both tables, with House_data2 having 
 
 ![House Data 2 Table query](https://github.com/dianahandler/Final_Module20_Group3/blob/ec20086b18caf302f1b12e9af6f93a2d0261d105/Resources/House%20Data%202%20table%20query.png)
 
-Below are images of the resulting tables created with the CSV file being imported.
+Below are images of the resulting tables created with the CSV file being imported. Both tables were properly imported, and displaying all their colums correctly.
 ![House_Data SQL Import](https://github.com/dianahandler/Final_Module20_Group3/blob/ec20086b18caf302f1b12e9af6f93a2d0261d105/Resources/House_Data%20SQL%20Import.png)
 
 ![House_Data2 SQL Import](https://github.com/dianahandler/Final_Module20_Group3/blob/ec20086b18caf302f1b12e9af6f93a2d0261d105/Resources/House_Data2%20SQL%20Import.png)
@@ -58,7 +58,7 @@ the query created to join the two tables on zpid.
 ![House Data Complete join query](https://github.com/dianahandler/Final_Module20_Group3/blob/ec20086b18caf302f1b12e9af6f93a2d0261d105/Resources/House%20Data%20Complete%20join%20query.png)
 
 This resulted in a table called House_Data_Complete, which was then exported into a csv file as well. Afterwards, a connection string was
-created using Jupyter Notebook. The file for that was uploaded into the resources folder, and an image of that code is shown below as wel.
+created using Jupyter Notebook. The file for that was uploaded into the resources folder, and an image of that code is shown below as well.
 
 ![Jupyter Notebook Connection String](https://github.com/dianahandler/Final_Module20_Group3/blob/9eab711bd40e45dd7e57cef1d23ff3acc42f5076/Resources/Jupyter%20Notebook%20Connection%20String.png)
 
