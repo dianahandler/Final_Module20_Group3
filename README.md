@@ -30,7 +30,9 @@ Slack chat and normal class hours are our primary communication channel. On top 
 As an alternative, we have each team member's email for supplemental communication medium\.
 
 ## Database
-The two datasets that were created during EDA and Cleaning Data set were split based on columns/features that were physical related to the house itself, vs external factors.
+The two datasets that were created during EDA and Cleaning Data set were split based on columns/features that were physically related to the house itself, vs external factors. 
+Looking at the dataset there were several factors that realted to the neighborhood itself, including number of schools (elem, mid, high) as well as school distance and rating.
+It was determined that this information would be split off from the physical characteristics of the house itself (like parking spaces, number of bedrooms, square footage).
 
 Based off this, the first table of the dataset being worked included the following columns: zpid, city, streetAddress, zipcode, description, latitude, longitude, propertyTaxRate, garageSpaces, hasAssociation, hasCooling, hasGarage, hasHeating, hasSpa, hasView, homeType, parkingSpaces, yearBuilt, latestPrice, numPriceChanges, latest_saledate, latest_salemonth, latest_saleyear, latestPriceSource, numOfPhotos, accessibility, numOfAppliances, numOfParkingFeatures, patioporch, security, waterfront, windowfeatures, community, lotSizesqFt, livingAreaSqFt, numOfBathrooms, numOfBedrooms, numOfStories, homeImage, zip_rank, median_zip, pr_sqft. 
 
