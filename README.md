@@ -4,7 +4,7 @@
 Predict Austin, TX House Sale Prices Using A Machine Learning Model\.
 
 ### Reason we chose this topic
-Austin, TX is one of the hottest markets as observed from the sales prices over years 2018 to early 2021. The market has been on a positive incline over these years, and we would like to discover new insights and build a machine learning model to predict the future sales prices per specific features as provided from the dataset
+Austin, TX is one of the hottest markets as observed from the sales prices over years 2018 to early 2021. The market has been on a positive incline over these years, and we would like to discover new insights and build a machine learning model to predict the future sales prices per specific features as provided from the dataset.
 
 ### Description of our source of data 
 The data set selected for our review and analysis originates from a project at Northwestern University. The csv file was discovered and pulled from [kaggle](https://www.kaggle.com/ericpierce/austinhousingprices)\.
@@ -49,16 +49,17 @@ Shown below are the queries used to create both tables, with House_data2 having 
 
 Below are images of the resulting tables created with the CSV file being imported. Both tables were properly imported, and displaying all their colums correctly.
 ![House_Data SQL Import](https://github.com/dianahandler/Final_Module20_Group3/blob/ec20086b18caf302f1b12e9af6f93a2d0261d105/Resources/House_Data%20SQL%20Import.png)
-
+**House Data with Physical Characteristics**
 ![House_Data2 SQL Import](https://github.com/dianahandler/Final_Module20_Group3/blob/ec20086b18caf302f1b12e9af6f93a2d0261d105/Resources/House_Data2%20SQL%20Import.png)
-
+**House Data with External Characteristics**
 Zpid was a unique identifier that carried over between the two datasets, and is what was used for the join as well. Below is an image of
 the query created to join the two tables on zpid.
 
 ![House Data Complete join query](https://github.com/dianahandler/Final_Module20_Group3/blob/ec20086b18caf302f1b12e9af6f93a2d0261d105/Resources/House%20Data%20Complete%20join%20query.png)
 
 This resulted in a table called House_Data_Complete, which was then exported into a csv file as well. Afterwards, a connection string was
-created using Jupyter Notebook. The file for that was uploaded into the resources folder, and an image of that code is shown below as well.
+created using Jupyter Notebook. The file for that was uploaded into the resources folder, and an image of that code is shown below as well. With the connection string
+working properly, a query was done to show the complete table in Jupyter Notebook.
 
 ![Jupyter Notebook Connection String](https://github.com/dianahandler/Final_Module20_Group3/blob/9eab711bd40e45dd7e57cef1d23ff3acc42f5076/Resources/Jupyter%20Notebook%20Connection%20String.png)
 
