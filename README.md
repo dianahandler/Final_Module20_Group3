@@ -68,9 +68,17 @@ working properly, a query was done to show the complete table in Jupyter Noteboo
 ## Google Slides Presentation & Graphics
 The team has jointly utilized python, Tableau, Jupyter Notebook, PostgreSQL, and Javascript to build a Google Slides Presentation, graphics, and an interactive Dashboard\.
 
+### Google Slides Presentation
 See our Google Slides Presentation [docs.google.com/presentation](https://docs.google.com/presentation/d/1twBBLEhZZkmWahrWEjHUeVqPb6Sn0j-FQJ_6LjUNoQ8/edit?usp=sharing)\.
 
-See some of our graphics created using Tableau [here](https://public.tableau.com/app/profile/cinthia.kim7065/viz/Final_Module20_Group3_Austin_Housing/Storyboard_1)\.
+### Storyboard Using Tableau
+See some of our graphics were created using Tableau [here](https://public.tableau.com/app/profile/cinthia.kim7065/viz/Final_Module20_Group3_Austin_Housing/Storyboard_1)\.
+
+First two worksheets of our storyboard tell the story of how the latest saledate sums per year increased throughout the years from 2018 to 2020. Note that the 2021 drop is due to there being only three datapoints, and therefore should be disregarded for the consideration of the increasing trajectory. In the second worksheet, the latest sale prices per month fluctuated with higher performance in the warmer months and the lower performance in the colder months. The real estate housing market in Austin, Texas was still strong with January performing the lowest for all three years, increased by at least $60 Million.
+
+In the third worksheet, you can see the breakdown of the various home types available in the Austin sample data. Condo, single family, and townhouse made up nearly 98% of the initial dataset. There are also a few house type features availble for anyone to play around with the filters to get a superficial understanding of the makeup of the house types.
+
+The next worksheet shows you an interactive map of Austin, segreagated by zip code and the average latest sale price of all the house sale data concentrated there. There is a selection of features you can tinker with to understand how the average latest sale prices change per zipcode. At a first glance, house sales in the center city appear to have the highest average latest sales price. However, there were some zipcode zones that had high average latest sales prices too, such as zipcodes 78737, and 78739. Preliminary thoughts on the zipcode feature is that it may not be a reliable feature for the machine learning model. First, it is unclear whether the zipcodes are ordered numerically by an increasing financial or qualitative measures correlated to the features available in the housing dataset. This hypothesis needs to be tested out in the feature engineering section of machine learning.
 
 ## Interactive Dashboard
 
@@ -79,6 +87,7 @@ See our interactive dashboard [here](https://dianahandler.github.io/dashboard_pr
 The purpose of this dashboard is to allow the user to both view and interact with 500 house listings on a map of Austin, Texas. All listings will be marked with popup markers that allos the user to click on them and view various features for each listing(# of bedrooms, square footage, price, etc.). 
 
 To create an interactive dashboard, the following tools were utilized:
+- Tableau
 - Visual Studio Code
 - Microsoft Excel
 - csv to geoJSON converter
