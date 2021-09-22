@@ -105,7 +105,7 @@ The new geoJSON file was added to a past repository. By clicking on the file and
 An index.html file was created with necessary code to allow the map to be viewable and interactive to the user upon clicking. The map setView function in the logic.js file is set to coordinates that allign with Austin, TX on the map and the zoom is set to 10 from a scale of 1 - 18 that allows the user to immediately view Austin rather than have to zoom in.
 ![Screen Shot 2021-09-12 at 6 04 36 PM](https://user-images.githubusercontent.com/82029390/133004201-5dd77a6a-646b-472e-aaad-fdfb80378745.png)
 
-Necessary tools included the Leaflet library, D3.js, and Mapbox. I will aditionally add more features to the map of listings such as (bedrooms, bathrooms, etc) so that the user can view these when they click the listing. For now the map simply displays the markers for all listings in the Austin, TX area.
+Necessary tools included the Leaflet library, D3.js, and Mapbox. There are additional features of this map of listings such as (bedrooms, bathrooms, etc) so that the user can view these when they click the listing. 
 
 
 # Machine Learning with Sklearn
