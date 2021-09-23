@@ -109,7 +109,7 @@ Necessary tools included the Leaflet library, D3.js, and Mapbox. There are addit
 
 
 # Machine Learning with Sklearn
-We would like to predict Austin house prices with a linear regression model. See files "Austin-Sklearn-2nd-Demo.ipynb" and " " for further details.
+We would like to predict Austin house prices with a linear regression model. See files "Austin-Sklearn-2nd-Demo.ipynb" and "Austin-Sklearn-Demo_chk.ipynb" for further details.
 
 ## Correlation and VIF Analysis
 With over 40 input features related to each Austin home, we decided to conduct correlation analysis to help determine the importance of each feature to home prices. In particular, we have taken care not to include 3 features in our analysis – median_zip, zip_rank, and pr_sqft – since they are solely meant for the data cleaning process of lurking outlier data within our raw dataset. Looking into our inputs' correlation coefficients, we are a bit let down that all of them fall below 0.5, which signifies weak to moderate correlation. While we would've loved to see more heavily correlated inputs relative to house price, we'll ultimately have to make do with our current inputs. In addition to correlation analysis, we have opted to run several rounds of VIF feature calculations to not only reduce collinearity among our features but also combat overfitting in our model by removing highly colinear features.
