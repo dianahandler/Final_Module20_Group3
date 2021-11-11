@@ -22,11 +22,20 @@ streets.addTo(map);
 // Accessing the airport GeoJSON URL
 let austinData= "https://raw.githubusercontent.com/dianahandler/Mapping_Earthquakes/main/new_data_random.geojson"
 
-
 // Grabbing our GeoJSON data.
 d3.json(austinData).then(function(data) {
     console.log(data);
   // Creating a GeoJSON layer with the retrieved data.
-  L.geoJson(data).addTo(map);
+  L.geoJson(data, {
+      pointToLayer: function(feature,latlng) {
+          console.log(data);
+          return L.marker(latlng);
+      },
+        onEachFeature: function(feature, layer) {
+        layer.bindPopup("Price: " + feature.properties.latestPrice + "</br>Bedrooms: " + feature.properties.numOfBedrooms + "</br>Bathrooms:" + feature.properties.numOfBathrooms);
+    }
+
+  }).addTo(map);
+  
 });
 
